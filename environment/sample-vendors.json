@@ -1,0 +1,60 @@
+{
+  "vendors": [
+    {
+      "name": "Datadog",
+      "category": "Monitoring",
+      "criticality": "high",
+      "url": "https://www.datadoghq.com",
+      "data_shared": ["infrastructure metrics", "logs", "APM traces"],
+      "contract_renewal": "2025-06-01"
+    },
+    {
+      "name": "Cloudflare",
+      "category": "CDN / WAF",
+      "criticality": "critical",
+      "url": "https://www.cloudflare.com",
+      "data_shared": ["DNS records", "web traffic", "SSL certificates"],
+      "contract_renewal": "2025-09-15"
+    },
+    {
+      "name": "PagerDuty",
+      "category": "Incident Management",
+      "criticality": "high",
+      "url": "https://www.pagerduty.com",
+      "data_shared": ["alert data", "on-call schedules", "incident details"],
+      "contract_renewal": "2025-03-01"
+    },
+    {
+      "name": "Stripe",
+      "category": "Payment Processing",
+      "criticality": "critical",
+      "url": "https://stripe.com",
+      "data_shared": ["payment data", "customer PII", "transaction logs"],
+      "contract_renewal": "2025-12-01"
+    },
+    {
+      "name": "Auth0",
+      "category": "Identity / Authentication",
+      "criticality": "critical",
+      "url": "https://auth0.com",
+      "data_shared": ["user credentials", "session tokens", "MFA data"],
+      "contract_renewal": "2025-07-15"
+    },
+    {
+      "name": "Twilio",
+      "category": "Communications",
+      "criticality": "medium",
+      "url": "https://www.twilio.com",
+      "data_shared": ["phone numbers", "SMS content", "call logs"],
+      "contract_renewal": "2025-04-01"
+    },
+    {
+      "name": "Snowflake",
+      "category": "Data Warehouse",
+      "criticality": "high",
+      "url": "https://www.snowflake.com",
+      "data_shared": ["analytics data", "customer data", "business metrics"],
+      "contract_renewal": "2025-11-01"
+    }
+  ]
+}

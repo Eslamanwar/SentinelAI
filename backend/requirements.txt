@@ -1,0 +1,34 @@
+# FastAPI
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# LangGraph + LangChain
+langgraph==0.2.60
+langchain==0.3.13
+langchain-openai==0.2.14
+langchain-core==0.3.28
+
+# Database
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10
+langgraph-checkpoint-postgres==2.0.11
+
+# Kafka
+confluent-kafka==2.6.1
+
+# Bright Data
+httpx==0.28.1
+playwright==1.49.1
+
+# Environment parsers
+python-hcl2==5.0.0
+pyyaml==6.0.2
+
+# Integrations
+slack-sdk==3.33.5
+
+# Utilities
+pydantic==2.10.4
+pydantic-settings==2.7.1
+python-dotenv==1.0.1
