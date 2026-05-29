@@ -2,10 +2,10 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    # LLM
-    litellm_base_url: str = "https://litellm.com"
-    litellm_api_key: str = ""
-    litellm_model: str = "claude-opus-4-6"
+    # LLM (OpenRouter)
+    openrouter_base_url: str = "https://openrouter.ai/api/v1"
+    openrouter_api_key: str = ""
+    openrouter_model: str = "google/gemini-2.5-flash"
 
     # Bright Data
     brightdata_api_key: str = ""
