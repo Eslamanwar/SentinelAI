@@ -104,7 +104,13 @@ graph TB
     style Output fill:#1a1a2e,stroke:#a855f7,color:#fff
 ```
 
-### LangGraph Agent Graph
+### LangGraph Agent Graph (Compiled DAG)
+
+> This is the **actual compiled graph** generated directly from LangGraph's `StateGraph` — not a hand-drawn diagram.
+
+![LangGraph DAG](presentation/langgraph_dag.png)
+
+### LangGraph State Diagram
 
 ```mermaid
 stateDiagram-v2
